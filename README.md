@@ -7,3 +7,15 @@
  - 查看邮件页面，邮件列表滚动条失效问题
  - 邮件只显示250封的问题
  - 不支持SMBV2.0的问题
+
+
+## 1.安装
+```
+pip install -r requirements.txt
+```
+
+
+## 2.使用
+```
+python exchangeRelayx.py -t http://your-taraget-owa -l 0.0.0.0 -p 8001
+```
