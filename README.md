@@ -15,7 +15,19 @@ pip install -r requirements.txt
 ```
 
 
+
 ## 2.使用
+
 ```
 python exchangeRelayx.py -t http://your-taraget-owa -l 0.0.0.0 -p 8001
 ```
+
+
+
+## 3.认证配置
+
+vim lib/owaServer.py
+
+找到runServer函数，配置user字典。
+
+默认账密是：admin/admin123

@@ -133,7 +133,7 @@ def runServer(serverIP, serverPort, poppedDB, poppedDB_Lock):
 	auth = HTTPBasicAuth()
 
 	users = {
-		"fuckbaidulab": "fuckbaidulab123",
+		"admin": "admin123",
 	}
 
 	@auth.get_password
